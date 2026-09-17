@@ -1,0 +1,14 @@
+TASK 25 – FIVE BUSINESS INSIGHTS
+
+1. Northwind contains 830 orders, 91 customers and 77 products in the standard sample. This makes it suitable for demonstrating multi-table relational analysis.
+
+2. Gross line-item sales are approximately $1.354M in the commonly used Northwind analysis. Category-level sales show Beverages as the largest category at about $286.5K, followed by Dairy Products at about $251.3K.
+
+3. Côte de Blaye is a major revenue driver. Published Northwind analyses consistently place it among the highest-revenue products; its high unit price means revenue leadership does not necessarily require the highest unit volume.
+
+4. Revenue is concentrated across a relatively small set of categories and products. This makes category-level and product-level drill-down useful for inventory planning and sales monitoring.
+
+5. Shipping performance must be analysed at order level. Freight should be aggregated from Orders, while product revenue should be calculated from Order Details. Joining the two directly and summing Freight can multiply freight by the number of line items and produce an inflated total.
+
+Note:
+The numerical reference values above are based on standard Northwind analyses available publicly. Run the supplied SQL script against your exact Northwind copy before using numerical values as final submission figures.
